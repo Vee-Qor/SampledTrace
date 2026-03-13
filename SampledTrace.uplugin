@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SampledTrace",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "VeeQor",
+	"CreatedByURL": "github.com/Vee-Qor",
+    "FabURL": "com.epicgames.launcher://ue/Fab/product/ee7b65b7-6256-4267-8848-702c6f79a7e9",
+	"EngineVersion": "5.2.0",
+	"DocsURL": "github.com/Vee-Qor/SampledTrace/blob/main/README_EU.md",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/ee7b65b7-6256-4267-8848-702c6f79a7e9",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SampledTrace",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": ["Win64",  "Linux", "Mac", "Android", "IOS"]
+		}
+	]
+}
