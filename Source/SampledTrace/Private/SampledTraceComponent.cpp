@@ -831,7 +831,7 @@ bool USampledTraceComponent::EvaluateSocketLocalPositionAtSequenceTime(const UAn
     for (const int32 ChainBoneIndex : BoneChain)
     {
         FTransform BoneLocal;
-        Sequence->GetBoneTransform(BoneLocal, ChainBoneIndex, SequenceTime, false);
+        Sequence->GetBoneTransform(BoneLocal, FSkeletonPoseBoneIndex(ChainBoneIndex), SequenceTime, false);
 
         BoneRelativeToRoot = BoneLocal * BoneRelativeToRoot;
     }
